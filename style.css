@@ -1,0 +1,56 @@
+.sectionwrapper {
+    margin: 75px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/*******************HEADER START**********/
+
+.header {
+    padding: 1em;
+    position: fixed;
+    text-align: right;
+    width: 100vw;
+    height: 4.5vw;
+    background: linear-gradient(to bottom, rgba(73, 130, 188, 0.99) 0%, rgba(0, 0, 0, 0) 50%);
+
+}
+
+header nav a:hover {
+
+    color: #1d7e21;
+    text-decoration: underline;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    padding-right: 4px;
+}
+
+
+
+header nav {
+    text-align: center;
+    margin: -15px -50px;
+}
+
+
+/*******************HEADER SLUT**********/
+
+#ensection {
+    background-color: rgb(61, 133, 172);
+}
+
+#ensection h1 {
+    color: white;
+}
+
+#ensection p {
+
+    color: white;
+}
+
+
+#nytnyt {}
