@@ -1,18 +1,49 @@
 .sectionwrapper {
+    /*
     margin: 75px;
     border-radius: 5px;
     padding: 20px;
+*/
+    margin: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    top: 10px;
+}
+
+
+body {
+    margin: 0;
+    background: white;
+}
+
+
+/*#forside,*/
+
+#experience_map,
+#persona,
+#scrum,
+#ide_beskrivelse,
+#test_af_app,
+#de_tre_ideer,
+#links {
+    margin: 0 auto;
+    background-color: lightgray;
+    margin: 0 10vw 0 10vw;
 }
 
 /*******************HEADER START**********/
 
-.header {
+header {
+    position: absolute;
+    width: 100vw;
+    padding: 1em;
+    /*
     padding: 6em;
     text-align: right;
     width: 100vw;
     height: .5vw;
     background: linear-gradient(to bottom, rgba(44, 122, 203, 0.99) 0%, rgba(0, 0, 0, 0) 90%);
-
+*/
 }
 
 header nav a:hover {
@@ -29,18 +60,21 @@ header nav a {
 }
 
 
-
 header nav {
     text-align: center;
-    margin: -75px -50px;
+    margin: -75px;
 }
 
 
 /*******************HEADER SLUT**********/
 
-#Scrum {
-    background-color: lightgray;
+#forside {}
+
+.content_top {
+    margin: 1em;
+    top: 10em;
 }
+
 
 #Scrum h1 {
     color: white;
@@ -57,26 +91,22 @@ header nav {
 .dropbtn {
     background-color: #4c72af;
     color: white;
-    padding: 16px;
+    padding: 1px;
     font-size: 26px;
     border: none;
     cursor: pointer;
     z-index: 20;
-    width: 130px;
-    height: 70px;
+    width: 140px;
+    height: 50px;
 
-
-
-
-
-}
 
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
-    top: 10vw;
+    top: 6vw;
+    left: -43vw;
     z-index: 23;
 }
 
